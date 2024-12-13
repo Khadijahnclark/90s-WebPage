@@ -1,0 +1,15 @@
+{
+  "name": "90s-webpage",
+  "version": "1.0.0",
+  "description": "Project for the Codédex's Mini Holiday Hackathon!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.16"
+  }
+}
