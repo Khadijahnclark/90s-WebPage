@@ -4,9 +4,15 @@ module.exports = {
   './src/**/*.{html,js}',],
   theme: {
     extend: {
-      animation: {
-      fade: 'fadeOut 5s ease-in-out',
+      keyframes: {
+        fadeOut: {
+          '0%': { opacity: '1'},
+          '100%': { opacity: '0'}
+        }
       },
+      animation: {
+        fadeOut: ' fadeOut 1.5s ease-out'
+      }
     },
   },
   plugins: [],

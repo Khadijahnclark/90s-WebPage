@@ -1,11 +1,14 @@
 //loading Screen
-const loader = document.getElementById("loader")
+// const loader = document.
 
-window.addEventListener("load", ()=>{
-    setTimeout(() =>{
-        deactivate()
-    }, 2000)
-    const deactivate = () => {
-        loader.classList.add('hidden');
-    }
-});
+// window.addEventListener("load", ()=>{
+
+//     setTimeout(() =>{
+//         deactivate()
+//     }, 3000)
+
+//     const deactivate = () => {
+//         loader.classList.add("hidden");
+//     };
+// });
+
