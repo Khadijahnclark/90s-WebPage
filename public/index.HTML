@@ -1,24 +1,75 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="h-full">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link href="output.css" rel="stylesheet">
 </head>
-<body>
+<body class="flex flex-col h-full overflow-hidden">
     <!-----Loading in Screen-->
-    <div id="loader" class="bg-black w-full h-screen flex items-center justify-center ">
+    <div id="loader" class="fixed z-50 bg-black w-full h-screen flex items-center justify-center ">
         <div id="container" class=" flex w-96 h-40 bg-white rounded-sm pt-6 px-1 pb-1" >
             <div id= "progress-container" class="bg-slate-500 w-96 flex flex-col items-center justify-center">
                 <p class=" flex p-4 text-lg ">Loading Baddie...</p>
-                <div id="inner-progress-container" class=" flex bg-white w-60 h-7 items-center p-1 ml-3">
-                   <!-----<div id="progress-bar" class="bg-cyan-950 w-5 h-5 p-2"></div>--> 
-                </div>
+                <div id="inner-progress-container" class=" flex bg-white w-60 h-7 items-center p-1 ml-3"></div>
             </div>
         </div>
     </div>
 
+    <div id="screen" class="z-0 relative h-screen w-full">
+        <!----------------Icons-------------------->
+        <div id="icons" class="flex justify-start items-start px-10">
+          <ul class=" flex flex-col justify-start w-36 m-10 list-none space-y-4">
+            <li class="p-4 flex flex-col items-center"> 
+                <img src="media/camera3_vid-4.png" alt="">
+                <p>☾⋆My Fav Vids ☾⋆</p>
+            </li>
+            <li class="p-4 flex flex-col items-center">
+                <img src="media/microphone_2-0.png" alt="">
+                <p>°✩ My Fav Music °✩</p>
+            </li>
+            <li class="p-4 flex flex-col items-center">
+                <img src="media/notepad-5.png" alt="">
+                <p>୭˚My Diary୭˚</p>
+            </li>
+            <li class="p-4 flex flex-col items-center">
+                <img src="media/recycle_bin_full_cool-0.png" alt="">
+                <p>✿Trash✿</p>
+            </li>
+            <li class="p-4 flex flex-col items-center">
+                <img src="media/computer_explorer_2k-4.png" alt="">
+                <p>⭑⚝Me⭑⚝</p>
+            </li>
+            <li class="p-4 flex flex-col items-center">
+                <img src="media/directory_open_file_mydocs_2k-4.png" alt="">
+                <p>♡The LOMLS♡</p>
+            </li>
+          </ul>
+          <div id="icons" class="flex justify-start items-start px-10">
+            <ul class=" flex flex-col justify-start w-36 m-10 list-none space-y-4">
+              <li class="p-4 flex flex-col items-center">
+                  <img src="media\game_freecell-2.png" alt="">
+                  <p>⚝Game⚝ </p>
+              </li>
+              <li class="p-4 flex flex-col items-center">
+                  <img src="media\program_manager-1.png" alt="">
+                  <p>❀Program Manager❀</p>
+              </li>
+              <li class="p-4 flex flex-col items-center">
+                   <img src="media\paint_file-5.png" alt="">
+                <p>⊹Paint Tool⊹</p>
+            </li>
+            </ul>
+        </div>
+      </div>
+      <!------------------Popup Screens--------------------------------------->
+        <!-- <div id="popup-container" class="flex w-96 h-40 bg-black rounded-sm pt-6 px-1 pb-1">
+            <div id="me-container" class="bg-pink w-96 flex flex-col items-center justify-center">
+
+            </div>
+        </div> -->
+    </div>
 <script src="script.js"></script>   
 </body>
 </html>
